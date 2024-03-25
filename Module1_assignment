@@ -1,0 +1,43 @@
+#This file contains the 2 programs for the first module assignemnt.
+#This first program prompts the user to provide two numbers, adds them together, subtracts the second number from the first, and then outputs both results - the sum and difference
+
+print("PART 1")
+
+print("\n")
+
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+print("\n")
+numbers_total = num1 + num2
+numbers_difference = num1 - num2
+print("\n")
+print("The total for the provided numbers is" , numbers_total)
+print("And subtracting the second from the first gives" , numbers_difference)
+print("This concludes part 1")
+
+print("\n")
+print("\n")
+
+#This second program gets 2 inputs from the user, multiplies the numbers, divides the second by the first, and then outpouts the results for the 2 calculations.
+print("PART 2")
+print("\n")
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter another number: "))
+print("\n")
+product = num1 * num2
+quotient = num1 / num2 
+print("Multiplying the 2 numbers you provided gives", product, "!")
+print("And dividing the second by the first yields", quotient, "!")
+
+print("\n")
+print("\n")
+print("\n")
+
+
+print("Goodbye!")
+
+
+
+
+
